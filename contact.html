@@ -5,7 +5,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anja Hallberg - CPT</title>
+    <title>Anja Hallberg - Contact</title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,6 +32,7 @@
       <nav>
         <ul>
           <a href="index.html"><li>Home</li></a>
+          <a href="portfolio.html"><li>Portfolio</li></a>
           <a href="contact.html"><li>Contact</li></a>
         </ul>
       </nav>
@@ -46,43 +47,30 @@
         fitness (and perhaps get a sponsorship because energy drinks are getting
         expensive).
       </p>
-      <section>
-        <a href="https://www.instagram.com/anjalifts/">
-          <figure>
-            <img
-              class="ig-logo"
-              src="images/ig-logo.webp"
-              alt="round instagram logo"
-            />
-            <figcaption>Instagram</figcaption>
-          </figure>
-        </a>
-        <a href="https://www.tiktok.com/explore">
-          <figure>
-            <img
-              class="tiktok-logo"
-              src="images/tiktok.webp"
-              alt="round TikTok logo"
-            />
-            <figcaption>TikTok</figcaption>
-          </figure>
-        </a>
-        <h2>Other</h2>
-        <p class="intro-text">
-          If you wish to send me a message or ask a question, do so below.
-          Signing up with your email also gives you a free workout program!
-        </p>
+      <section class="social-media-form">
+        <a class="social-media" href="https://youtube.com"><li>YouTube</li></a>
+        <a class="social-media" href="https://www.instagram.com/anjalifts/">
+          <li>Instagram</li></a
+        >
+        <a class="social-media" href="https://www.tiktok.com"
+          ><li>TikTok</li></a
+        >
       </section>
+      <h2>Other</h2>
+      <p class="intro-text">
+        If you wish to send me a message or ask a question, do so below!
+      </p>
+
       <!--Contact Form adapted from
       https://www.w3schools.com/howto/howto_css_contact_form.asp -->
       <section class="contact-form">
-        <h2 class="form-header">Free workouts!</h2>
+        <h2 class="form-header">Got a Question?</h2>
         <form>
           <label for="name">Your Name</label>
           <input type="text" id="name" placeholder="Your Name" />
           <label for="email">Your Email</label>
           <input type="text" id="email" placeholder="youremail@gmail.com" />
-          <label for="message">Your Message (optional)</label>
+          <label for="message">Your Message</label>
           <textarea
             name="message"
             id="message"
