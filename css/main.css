@@ -10,7 +10,7 @@
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 420px) {
   #logo {
     font-size: 1rem;
   }
