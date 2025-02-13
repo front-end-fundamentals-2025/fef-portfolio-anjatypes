@@ -226,17 +226,14 @@ input[type="submit"]:hover {
   }
 }
 
-.florence-img:hover {
-  animation-name: expand;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
+.florence-fig {
+  transition: transform 0.3s ease;
 }
 
-@keyframes expand {
-  50% {
-    transform: scale(1.1);
-  }
+.florence-fig:hover {
+  transform: scale(1.1);
 }
+
 /* MAGAZINE SPREAD */
 
 .magazine-container {
